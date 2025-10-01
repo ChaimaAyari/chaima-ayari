@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Chaima Ayari — CV & Portfolio</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;line-height:1.45;color:#111;margin:0;padding:0}
+    header{background:#0b72b9;color:#fff;padding:28px 20px}
+    .container{max-width:920px;margin:26px auto;padding:0 18px}
+    h1{margin:0;font-size:1.6rem}
+    .meta{margin-top:6px;font-size:0.95rem;opacity:.95}
+    .grid{display:grid;grid-template-columns:1fr;gap:18px;margin-top:20px}
+    .card{border-radius:8px;padding:16px;background:#fff;box-shadow:0 6px 18px rgba(0,0,0,0.06)}
+    a.button{display:inline-block;padding:10px 14px;background:#0b72b9;color:#fff;border-radius:6px;text-decoration:none}
+    iframe{width:100%;border:1px solid #e7e7e7;border-radius:6px}
+    @media(min-width:800px){.grid{grid-template-columns:1fr 360px}}
+    .small{font-size:0.9rem;color:#444}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Chaima Ayari — Ingénieure Mécanique</h1>
+      <div class="meta">CATIA V5 | PLM: Smarteam & ENOVIA V6 (3DEXPERIENCE) | MARC Mentat</div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="grid">
+      <section class="card">
+        <h2>About / Profil</h2>
+        <p class="small">Ingénieure mécanique en bureau d'études (aéronautique & automobile). Conception 2D/3D, gestion PLM, modifications après ECR, workflows de release. Disponible pour opportunités professionnelles.</p>
+
+        <h3 style="margin-top:12px">Contact</h3>
+        <p class="small">
+          Téléphone : +216 56 98 77 28<br>
+          Email : <a href="mailto:chaimaayari26@outlook.com">chaimaayari26@outlook.com</a><br>
+          LinkedIn : <a href="https://linkedin.com/in/ayari-chayma" target="_blank">linkedin.com/in/ayari-chayma</a>
+        </p>
+
+        <p style="margin-top:12px">
+          <a class="button" href="cv_detailed.pdf" target="_blank" rel="noopener">Download detailed CV (PDF)</a>
+        </p>
+
+        <h3 style="margin-top:18px">Quick highlights</h3>
+        <ul class="small">
+          <li>Safran Seats — Projeteuse mécanique (CATIA V5, Smarteam)</li>
+          <li>Segula / Stellantis — Ingénieure d'études (ENOVIA V6)</li>
+          <li>PFE Institut Charles Sadron — Simulation & essais (MARC Mentat)</li>
+          <li>OpenSim musculoskeletal model — Presented at CMSM</li>
+        </ul>
+      </section>
+
+      <aside class="card">
+        <h3>CV Preview</h3>
+        <!-- Embedded PDF preview. If browser doesn't preview, user can click Download -->
+        <iframe src="cv_detailed.pdf" height="520" title="Detailed CV"></iframe>
+      </aside>
+    </div>
+  </main>
+</body>
+</html>
